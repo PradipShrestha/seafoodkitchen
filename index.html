@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seafood Restaurant</title>
+    <meta name="description" content="Seafood restaurant">
+    <meta name="keywords" content="seafood, shrimp, restaurant, oysters">
+
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<!--banner-->
+<section id="banner">
+    <div class="bg-color">
+        <header id="header">
+            <div class="container">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#about">Delicious Journey</a>
+                    <a href="#menu-list">Menu</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <!-- Use any element to open the sidenav -->
+                <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="inner text-center">
+                    <h1 class="logo-name">Seafood Kitchen</h1>
+                    <a href="/"><img src="img/logo.png" alt="Seafood Kitchen"></a>
+                    <h2>Food To fit your lifestyle & health.</h2>
+                    <p>Specialized in Seafood!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- / banner -->
+<!--about-->
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center marb-35">
+                <h1 class="header-h">Delicious Journey</h1>
+                <p class="header-p">We enjoy serving to our local communities of Virginia Beach, Norfolk and
+                    Suffolk. </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-info">
+                        <h2 class="heading">We Provide</h2>
+                        <p>At Seafood and Kitchen, we warmly welcome you to enjoy the varieties of seafoods and grilled
+                            menus, most
+                            authentic herbs, and elegant spices. We offer a fresh mouthwatering menu per customer
+                            choice. We also provide varieties of kids menu</p>
+                        <div class="details-list">
+                            <ul>
+                                <li><i class="fa fa-check"></i>Healthy
+                                </li>
+                                <li><i class="fa fa-check"></i>Delicious</li>
+                                <li><i class="fa fa-check"></i>Wholesome</li>
+                                <li><i class="fa fa-check"></i>& Awesome</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <img src="img/res01.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</section>
+<!--/about-->
+<!-- event -->
+<!--
+<section id="event">
+    <div class="bg-color" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center" style="padding:60px;">
+                    <h1 class="header-h">Up Coming events</h1>
+                    <p class="header-p">Decorations 100% complete here</p>
+                </div>
+                <div class="col-md-12" style="padding-bottom:60px;">
+                    <div class="item active left">
+                        <div class="col-md-6 col-sm-6 left-images">
+                            <img src="img/res02.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 col-sm-6 details-text">
+                            <div class="content-holder">
+                                <h2>Joyful party</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum
+                                    voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus
+                                    quaerat praesentium id expedita nihil illo accusantium, tempora.</p>
+                                <address>
+                                    <strong>Place: </strong>
+                                    5072 Ferrell Pkwy<br/>
+                                    Ste 114<br/>
+                                    Virginia Beach, VA 23464<br/>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ event -->
+<!-- menu -->
+<section id="menu-list" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center marb-35">
+                <h1 class="header-h">Menu List</h1>
+                <p class="header-p">Food is the ingredient that binds us together. </p>
+            </div>
+            <div class="col-md-12  text-center container" id="menu-flters">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a class="filter" data-filter=".appetizer" href="#appetizer">Appetizer</a></li>
+                    <li><a class="filter" data-filter=".big-fat-burger" href="#big-fat-burger">Big Fat Burger</a></li>
+                    <li><a class="filter" data-filter=".po-boy" href="#po-boy">PO Boy</a></li>
+                    <li><a class="filter" data-filter=".salad" href="#salad">Salad</a></li>
+                    <li><a class="filter" data-filter=".seafood-platter" href="#seafood-platter">Seafood Platter</a>
+                    </li>
+                    <li><a class="filter" data-filter=".family-combos" href="#family-combos">Family Combos</a></li>
+                    <li><a class="filter" data-filter=".shirmply-irresistible" href="#shrimply-irresistible">Shrimply
+                        Irresistible</a></li>
+                    <li><a class="filter" data-filter=".deluxe-combo" href="#deluxe-combo">Deluxe Combo</a></li>
+                    <li><a class="filter" data-filter=".sides" href="#sides">Deluxe Combo</a></li>
+                    <li><a class="filter" data-filter=".off-the-grill" href="#off-the-grill">Off The Grill</a></li>
+                    <li><a class="filter" data-filter=".kids-meal" href="#kids-meal">Kids Meal</a></li>
+                    <li><a class="filter" data-filter=".dessert" href="#desserts">Dessert</a></li>
+                    <li><a class="filter" data-filter=".party-wings" href="#party-wings">Party Wings</a></li>
+                    <li><a class="filter" data-filter=".fried-chicken" href="#fried-chicken">Fried Chicken</a></li>
+                    <li><a class="filter" data-filter=".wings" href="#wings">Wings</a></li>
+                    <li><a class="filter" data-filter=".legs" href="#legs">Legs</a></li>
+                    <li><a class="filter" data-filter=".philly-steak-gyro" href="#philly-steak">Philly Steak/Gyro</a>
+                    </li>
+                    <li><a class="filter" data-filter=".burgers" href="#burgers">Burgers</a></li>
+                </ul>
+
+                <!--Change menu items -->
+                <div id="menu-wrapper" class="tab-content">
+                    <div id="appetizer" class="tab-pane fade in active">
+                        <h3>Add $2.95 to make a combo</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Clam Strips</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Scallops (Breaded Popcorns)</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$8.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fried Calamari</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$8.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Oyster's App</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$8.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Broccoli Cheese Bites</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mac & Cheese Bites</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Onion Rings</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$3.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <!-- end of appetizer-->
+                    <!-- start of big fat burger -->
+                    <div id="big-fat-burger" class="tab-pane fade">
+                        <h3>Add $2.95 to make a combo</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Wacky Whiting</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49</span>
+                            </span>
+                            <span class="menu-subtitle">6-7 pcs</span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Crazy Catfish</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle">5 pcs</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Tilapia</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$7.49</span>
+                            </span>
+                            <span class="menu-subtitle">4pcs</span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fat Flounder</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$8.49</span>
+                            </span>
+                            <span class="menu-subtitle">6 pcs</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mahi Madness</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.99</span>
+                            </span>
+                            <span class="menu-subtitle">10 oz</span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Haddock</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.99</span>
+                            </span>
+                            <span class="menu-subtitle">10 oz</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Crab Cake</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.99</span>
+                            </span>
+                            <span class="menu-subtitle">1 ct</span>
+                        </div>
+
+                    </div>
+                    <div id="po-boy" class="tab-pane fade">
+                        <h3>Served with fries and fountain</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fish (Whiting)</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Scallops</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.9</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Classic Oyster</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Catfish & Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="salad" class="tab-pane fade">
+                        <h3>Add grilled shrimp or fried crispy chicken for $3.00</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Ceasar</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$4.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="seafood-platter" class="tab-pane fade">
+                        <strong>Served with fries and fountain:</strong> 1/2 lb of fish, schoice of side* & fountain
+                        <br/>
+                        <strong>Big Easy: </strong>3/4 lb fish, 2 HP, coleslaw, choice of side* & fountain
+                        <strong>*</strong>: sweet fries or potato salad of 50 cents more <br/>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Captain's Platter (Whitening)</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $7.49, Big Easy: $10.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pirates Pleasure (Catfish)</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $7.99, Big Easy: $11.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Tilapia</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $7.99, Big Easy: $11.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Feast (Flounder)</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $7.99, Big Easy: $11.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fish & Chips</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $7.99, Big Easy: $11.49</span>
+                            </span>
+                            <span class="menu-subtitle">Cod</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Skippers Catch</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $8.49, Big Easy: $11.99</span>
+                            </span>
+                            <span class="menu-subtitle">Haddock</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Sailors Choice</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $12.99</span>
+                            </span>
+                            <span class="menu-subtitle">Mahi Mahi</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Crab Cake</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $6.49, Big Easy: $8.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="family-combos" class="tab-pane fade">
+                        <h3>Add grilled shrimp or fried crispy chicken for $3.00</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Family Special</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$19.99</span>
+                            </span>
+                            <span class="menu-subtitle">Whiting/Catfish 1.5lb (add $2 for flounder or tilapia)<br/>
+                                Family size of fies <br/>
+                                Hush puppies 6ct
+                                Any 1 family size size (coleslaw/collards/green beans)
+                            </span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Party Special</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$19.99</span>
+                            </span>
+                            <span class="menu-subtitle">Whiting/Catfish 1lb (add $2 for flounder or tilapia)<br/>
+                                Fried jumbo shrimp 12 ct <br/>
+                                Family size of fies <br/>
+                                Hush puppies 6ct
+                                Any 1 family size size (coleslaw/collards/green beans)
+                            </span>
+                        </div>
+                    </div>
+                    <div id="shrimply-irresistible" class="tab-pane fade">
+                        <strong>Platter:</strong> 10 ct shrimp, choice of sides* & fountain <br/>
+                        <strong>Big Easy: </strong>16 ct shrimp, 2 HP, coleslaw, choice of sides* & fountain <br/>
+                        <strong>*</strong>: sweet fries or potato salad of 50 cents more <br/>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Fried Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.49, Big Easy: $15.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Boom Boom Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $15.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mango Habanero Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $15.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Sweet Chilli Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $15.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Buffalo Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $15.99</span>
+                            </span>
+                            <span class="menu-subtitle">Cod</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Panko Breaded Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $15.99</span>
+                            </span>
+                            <span class="menu-subtitle">Haddock</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Coconut Shrimp</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $12.99</span>
+                            </span>
+                            <span class="menu-subtitle">Mahi Mahi</span>
+                        </div>
+                    </div>
+                    <div id="deluxe-combo" class="tab-pane fade">
+                        <strong>Platter:</strong> 4 ct shrimp, 6oz fish, choice of sides* & fountain<br/>
+                        <strong>Big Easy: </strong>8 ct shrimp, 10 oz fish, 2 HP, coleslaw, choice of sides* & fountain
+                        <br/>
+                        <strong>*</strong>: sweet fries or potato salad of 50 cents more <br/>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp & Whitening</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $7.99, Big Easy: $12.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp & Catfish</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $8.49, Big Easy: $12.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp & Tilapia</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.49, Big Easy: $14.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp & Flounder</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.49, Big Easy: $14.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp & Haddock</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $9.99, Big Easy: $15.99</span>
+                            </span>
+                            <span class="menu-subtitle">Cod</span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp & Mahi Mahi</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Platter: $10.99, Big Easy: $16.99</span>
+                            </span>
+                            <span class="menu-subtitle">Haddock</span>
+                        </div>
+                    </div>
+                    <div id="sides" class="tab-pane fade">
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Coleslaw</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">4oz: $1.50, 8oz: $2.50</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Potato Salad</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">4oz: $1.95, 8oz: $2.95</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Fries</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">4oz: $1.50, 8oz: $2.50</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Coleslaw</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">4oz: $1.50, 8oz: $2.50</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                    </div>
+                    <div id="off-the-grill" class="tab-pane fade">
+                        <h3>Served with fries and fountain</h3>
+                        <strong>Seasoning: </strong>Old Bay, Lemon Peper, Cajun, Blackend
+                        <br/>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp 10 ct</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tilapia 8 oz</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$8.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mahi Mahi 8 oz</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$10.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Salmon 6 oz</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$10.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp 5ct & Tilapia 8 oz</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$13.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp 5ct & Mahi Mahi 8 oz</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$14.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp 5ct & Salmon 6 oz</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$14.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="kids-meal" class="tab-pane fade">
+                        <h3>Served with fries and fountain</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Whitening Burger</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.89</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Catfish Burger</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.89</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Burger</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Shrimp Basket</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Tenders</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="desserts" class="tab-pane fade">
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chocolate Brownie</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$1.89</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Funnel Cake</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$1.89</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Cup Cake</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$2.89</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="party-wings" class="tab-pane fade">
+                        Hot, mild, buffalo, mango habanero, sweet teriyaki, garlic parmesan, sweet & chili, bbq (served
+                        with choice of ranch or bieu cheese)<br/>
+                        <strong>Big Easy: </strong>3/4 lb fish, 2 HP, coleslaw, choice of side* & fountain
+                        <strong>*</strong>: sweet fries or potato salad of 50 cents more <br/>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">6 Wings</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Wings: $5.99, With fries: $6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">8 Wings</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Wings: $7.99, With fries: $8.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">12 Wings</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Wings: $9.99, With fries: $10.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Chicken Tenders: 3 Pcs</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Pcs: $4.99, With fries: $5.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Chicken Tenders: 5 Pcs</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">Pcs: $6.99, With fries: $7.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="fried-chicken" class="tab-pane fade">
+                        <h3>Per price: Thigh/breasts: $2.49, wings/legs: $1.59</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">2 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$3.79, Fries & soda: $5.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">3 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.49, Fries & soda: $7.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">4 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49, Fries & soda: $8.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">8 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$11..49, Fries & soda: $14.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">12 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$17.99, Fries & soda: $21.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">16 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$22.49, Fries & soda: $26.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">24 Pcs Mixed</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$29.99, Fries & soda: $35.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="wings" class="tab-pane fade">
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">3 Wings 1 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$2.99, Combo (Fries & soda): $5.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">5 Wings 1 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.49, Combo (Fries & soda): $7.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">10 Wings 2 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$9.49, Combo (Fries & soda): $11.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">15 Wings 3 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$13.99, Combo (Fries & soda): $15.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="legs" class="tab-pane fade">
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">5 Pcs 1 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.99, Combo (Fries & soda): $7.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">10 Pcs 1 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$12.49, Combo (Fries & soda): $14.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">15 Pcs 32 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$15.49, Combo (Fries & soda): $17.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">20 Wings 4 Roll</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$19.49, Combo (Fries & soda): $21.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="philly-steak" class="tab-pane fade in active">
+                        <h3>Add $2.95 to make a combo</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Philly Cheese Steak</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Cheese Steak</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#"
+                                    data-meal-img="assets/img/restaurant/rib.jpg">Lamb Gyro</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Gyro</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Grilled Chicken Over Rice</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$7.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Lamb Over Rice</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$7.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                    <div id="burgers" class="tab-pane fade in active">
+                        <h3>Served with fries & fountain</h3>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Classic Chicken</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.49</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Grilled Chicken</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Spicy Chicken</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Cheese Burger</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$5.69</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                        <div class="appetizer menu-restaurant">
+                            <span class="clearfix">
+                              <span class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Double Cheese</span>
+                              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                              <span class="menu-price">$6.99</span>
+                            </span>
+                            <span class="menu-subtitle"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ menu -->
+<!-- contact -->
+<section id="contact" class="section-padding">
+    <div class="container">
+        <!--<div class="row">-->
+        <!--<div class="col-md-12 text-center">-->
+        <!--<h1 class="header-h">Book Your table</h1>-->
+        <!--<p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy-->
+        <!--<br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="row msg-row">
+            <div class="col-md-4 col-sm-4 mr-15">
+                <div class="media-2">
+                    <div class="media-left">
+                        <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="dark-blue regular">Phone Number</h4>
+                        <p class="light-blue regular alt-p"> (757) 473-8000<span
+                                class="contacts-sp"> -Phone Booking</span></p>
+                        <h4 class="dark-blue regular">Fax</h4>
+                        <p class="light-blue regular alt-p"> (757) 473-1300</p>
+                    </div>
+                </div>
+                <div class="media-2">
+                    <div class="media-left">
+                        <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="dark-blue regular">Opening Hours</h4>
+                        <p class="light-blue regular alt-p">09.00 AM - 10:00 PM</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-md-8 col-sm-8">-->
+            <!--<div class="col-md-12 btnpad">-->
+            <!--<div class="contacts-btn-pad">-->
+            <!--<a class="btn btn-imfo btn-read-more" href="">Book Table</a>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</section>
+<!-- / contact -->
+<!-- footer -->
+<footer class="footer text-center">
+    <div class="footer-top">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6 text-center">
+                <div class="widget">
+                    <h4 class="widget-title">Seafood Restaurant</h4>
+                    <address>329 Kellam Rd<br/>
+                        Virginia Beach, VA 23462
+                    </address>
+                    <div class="social-list">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <p class="copyright clear-float">
+                        © Prasar LLC. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- / footer -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
